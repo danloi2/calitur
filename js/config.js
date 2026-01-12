@@ -23,7 +23,7 @@ const SEASON_INFO = {
   ADVENT: {
     title: "Tiempo de Adviento",
     latTitle: "Tempus Adventus",
-    desc: "Preparation for the coming of Christ",
+    desc: "Preparación para la llegada de Cristo",
     latDesc: "Præparatio adventus Christi",
   },
   CHRISTMAS: {
