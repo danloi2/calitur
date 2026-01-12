@@ -1,0 +1,17 @@
+{
+  "name": "romcal-html-web-page-example",
+  "scripts": {
+    "start": "http-server -g -p 0 -c-1 . --cors",
+    "build:css": "tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "build": "tailwindcss -i ./css/input.css -o ./css/output.css --minify"
+  },
+  "dependencies": {},
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "autoprefixer": "^10.4.23",
+    "http-server": "^14.1.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  }
+}
