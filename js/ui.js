@@ -20,7 +20,7 @@ const UI = {
         <div class="absolute inset-0 bg-white/40 backdrop-blur-3xl z-0"></div>
         <div class="absolute inset-0 bg-linear-to-br from-primary-500/10 to-indigo-500/10 z-0"></div>
         <div class="relative z-10">
-          <h2 class="text-3xl font-black bg-linear-to-br from-primary-700 to-indigo-700 bg-clip-text text-transparent uppercase tracking-tight mb-3">
+          <h2 class="text-3xl font-black bg-linear-to-br from-primary-700 to-indigo-700 bg-clip-text text-transparent tracking-tight mb-3">
             ${title}
           </h2>
           <p class="text-lg text-slate-600 font-medium max-w-2xl mx-auto leading-relaxed">
@@ -84,7 +84,7 @@ const UI = {
           <div class="grow p-5 flex flex-col justify-center relative z-10">
             ${
               dExtra.week
-                ? `<div class="text-xs font-semibold ${colors.text} opacity-80 uppercase tracking-wider mb-2 flex items-center gap-2">
+                ? `<div class="text-xs font-semibold ${colors.text} opacity-80 tracking-wider mb-2 flex items-center gap-2">
                     <span class="w-1.5 h-1.5 rounded-full ${colors.icon}"></span>
                     ${dExtra.week}
                    </div>`

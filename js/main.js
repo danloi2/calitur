@@ -33,7 +33,7 @@ async function updateCalendar() {
   // 2. Populate the Season Selector dynamically based on language
   const prevValue = seasonSel.value;
   seasonSel.innerHTML = `<option value="">${
-    lang === "es" ? "-- TIEMPO --" : "-- TEMPUS --"
+    lang === "es" ? "-- Tiempo --" : "-- Tempus --"
   }</option>`;
 
   Object.keys(SEASON_INFO).forEach((key) => {
@@ -42,7 +42,7 @@ async function updateCalendar() {
     const name = lang === "la" ? info.latTitle : info.title;
     const option = document.createElement("option");
     option.value = key;
-    option.textContent = name.toUpperCase();
+    option.textContent = name;
     seasonSel.appendChild(option);
   });
   // Restore previous selection if valid

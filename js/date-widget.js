@@ -178,7 +178,7 @@ const DateWidget = (() => {
     el.innerHTML = `
       <div class="flex flex-col items-center gap-1 text-xs leading-tight">
         ${dateHTML}
-        <div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-bold tracking-wide uppercase ring-1 ring-inset ${colorClass} transition-colors duration-300">
+        <div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-bold tracking-wide ring-1 ring-inset ${colorClass} transition-colors duration-300">
           ${icon}
           <span>${timeText}</span>
         </div>
