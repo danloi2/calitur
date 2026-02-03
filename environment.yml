@@ -1,0 +1,8 @@
+name: calitur
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - nodejs
